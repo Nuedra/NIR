@@ -1,0 +1,35 @@
+/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.csproj.AssemblyReference.cache
+/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/rpswa.dswa.cache.json
+/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.GeneratedMSBuildEditorConfig.editorconfig
+/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.AssemblyInfoInputs.cache
+/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.AssemblyInfo.cs
+/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.csproj.CoreCompileInputs.cache
+/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/Platform.DataAccess.Postgress.csproj.AssemblyReference.cache
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/Platform.DataAccess.Postgress.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/Platform.DataAccess.Postgress.AssemblyInfoInputs.cache
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/Platform.DataAccess.Postgress.AssemblyInfo.cs
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/Platform.DataAccess.Postgress.csproj.CoreCompileInputs.cache
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/bin/Debug/net8.0/Platform.DataAccess.Postgress.deps.json
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/bin/Debug/net8.0/Platform.DataAccess.Postgress.runtimeconfig.json
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/bin/Debug/net8.0/Platform.DataAccess.Postgress.dll
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/bin/Debug/net8.0/Platform.DataAccess.Postgress.pdb
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/Platform.DataAccess.Postgress.dll
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/refint/Platform.DataAccess.Postgress.dll
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/Platform.DataAccess.Postgress.pdb
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/Platform.DataAccess.Postgress.genruntimeconfig.cache
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/ref/Platform.DataAccess.Postgress.dll
+/Users/vladislav/Downloads/NIR/platform.DataAccess.Postgress/bin/Debug/net8.0/platform.DataAccess.Postgress.deps.json
+/Users/vladislav/Downloads/NIR/platform.DataAccess.Postgress/bin/Debug/net8.0/platform.DataAccess.Postgress.runtimeconfig.json
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/bin/Debug/net8.0/platform.DataAccess.Postgress.dll
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/bin/Debug/net8.0/platform.DataAccess.Postgress.pdb
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.csproj.AssemblyReference.cache
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.AssemblyInfoInputs.cache
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.AssemblyInfo.cs
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.csproj.CoreCompileInputs.cache
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.dll
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/refint/platform.DataAccess.Postgress.dll
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.pdb
+/Users/vladislav/Downloads/NIR/platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.genruntimeconfig.cache
+/Users/vladislav/Downloads/NIR/platform.DataAccess.Postgress/obj/Debug/net8.0/ref/platform.DataAccess.Postgress.dll

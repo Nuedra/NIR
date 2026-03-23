@@ -1,0 +1,826 @@
+const xmlAchievementsGraph = `
+        <graph>
+            <canvas height="2048" width="4096"/>
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-1" type="circle" label="Подмастерье" rotation="0">
+              <geometry x="3500" y="1970" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-2" type="circle" label="Первый опыт" rotation="0">
+              <geometry x="3500" y="1800" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-3" type="circle" label="Полпути пройдено!" rotation="0">
+              <geometry x="3500" y="1630" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>s
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-4" type="circle" label="Лабораторный\nветеран" rotation="0">
+              <geometry x="3500" y="1460" radius="50" border="true"/>
+              <background color="#808080"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-5" type="circle" label="Первое появление" rotation="0">
+              <geometry x="3700" y="1970" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-6" type="circle" label="Уверенный слушатель" rotation="0">
+              <geometry x="3700" y="1800" radius="50" border="true"/>
+              <background color="#808080"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-7" type="circle" label="Образцовый студент" rotation="0">
+              <geometry x="3700" y="1630" radius="50" border="true"/>
+              <background color="#808080"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-8" type="circle" label="О, массив!" rotation="0">
+              <geometry x="2500" y="1800" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-9" type="circle" label="Лист-лист, покажись" rotation="0">
+              <geometry x="2500" y="1630" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-10" type="circle" label="Секвенсор" rotation="0">
+              <geometry x="2500" y="1460" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-11" type="circle" label="Сегментатор-3000" rotation="0">
+              <geometry x="2500" y="1290" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-12" type="circle" label="Подвинься!" rotation="0">
+              <geometry x="2300" y="1800" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-13" type="circle" label="Дайте приоритет!" rotation="0">
+              <geometry x="2300" y="1630" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-14" type="circle" label="Деконструктор" rotation="0">
+              <geometry x="2300" y="1460" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-15" type="circle" label="СегменДек" rotation="0">
+              <geometry x="2300" y="1290" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-16" type="circle" label="Квадрат Малевича" rotation="0">
+              <geometry x="2100" y="1800" radius="50" border="true"/>
+              <background color="#f0f4c3"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-17" type="circle" label="Вектор-пакет" rotation="0">
+              <geometry x="2100" y="1630" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-18" type="circle" label="МногоМногочлен" rotation="0">
+              <geometry x="2100" y="1460" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-19" type="circle" label="Измерь меня полностью" rotation="0">
+              <geometry x="2100" y="1290" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-20" type="circle" label="Детерминант судьбы" rotation="0">
+              <geometry x="1900" y="1800" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-21" type="circle" label="Генеральный шаблон" rotation="0">
+              <geometry x="1900" y="1630" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-22" type="circle" label="Магистр матриц" rotation="0">
+              <geometry x="1900" y="1460" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-23" type="circle" label="Высший матриарх" rotation="0">
+              <geometry x="1900" y="1290" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-24" type="circle" label="Инвертни это!" rotation="0">
+              <geometry x="1700" y="1800" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-25" type="circle" label="MapReduce: давай заново" rotation="0">
+              <geometry x="1700" y="1630" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-26" type="circle" label="Просеял — победил" rotation="0">
+              <geometry x="1700" y="1460" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-27" type="circle" label="Фильтруй - не тормози" rotation="0">
+              <geometry x="1700" y="1290" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-28" type="circle" label="Башня для продвинутых" rotation="0">
+              <geometry x="1500" y="1800" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-29" type="circle" label="Вектор-пакет" rotation="0">
+              <geometry x="1500" y="1630" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-30" type="circle" label="МногоМногочлен" rotation="0">
+              <geometry x="1500" y="1460" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-31" type="circle" label="Измерь меня полностью" rotation="0">
+              <geometry x="1500" y="1290" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-32" type="circle" label="Полупорядоченный" rotation="0">
+              <geometry x="1300" y="1800" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-33" type="circle" label="Вектор-пакет" rotation="0">
+              <geometry x="1300" y="1630" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-34" type="circle" label="МногоМногочлен" rotation="0">
+              <geometry x="1300" y="1460" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-35" type="circle" label="Измерь меня полностью" rotation="0">
+              <geometry x="1300" y="1290" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-36" type="circle" label="Кусок графика" rotation="0">
+              <geometry x="1100" y="1800" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-37" type="circle" label="Вектор-пакет" rotation="0">
+              <geometry x="1100" y="1630" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-38" type="circle" label="МногоМногочлен" rotation="0">
+              <geometry x="1100" y="1460" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-39" type="circle" label="Измерь меня полностью" rotation="0">
+              <geometry x="1100" y="1290" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-40" type="circle" label="Аналитик функций" rotation="0">
+              <geometry x="1100" y="1120" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-41" type="circle" label="Логик порядка" rotation="0">
+              <geometry x="1300" y="1120" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-42" type="circle" label="Властелин рекурсии" rotation="0">
+              <geometry x="1500" y="1120" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-43" type="circle" label="Повелитель линейных алгоритмов" rotation="0">
+              <geometry x="1700" y="1120" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-44" type="circle" label="Специалист по матричной типизации" rotation="0">
+              <geometry x="1900" y="1120" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-45" type="circle" label="Я у мамы инженер многомерных структур" rotation="0">
+              <geometry x="2100" y="1120" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-46" type="circle" label="Очередник" rotation="0">
+              <geometry x="2300" y="1120" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-47" type="circle" label="Мастер базы" rotation="0">
+              <geometry x="2500" y="1120" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-48" type="circle" label="Азбука теории" rotation="0">
+              <geometry x="900" y="1970" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-49" type="circle" label="Первый опыт" rotation="0">
+              <geometry x="900" y="1800" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-50" type="circle" label="Полпути пройдено!" rotation="0">
+              <geometry x="900" y="1630" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-52" type="circle" label="Итоги" rotation="0">
+              <geometry x="3500" y="700" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-53" type="circle" label="Мастер курса" rotation="0">
+              <geometry x="3500" y="530" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-54" type="circle" label="Ас курса" rotation="0">
+              <geometry x="3700" y="530" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <node dialect="base" id="kqRZZZaIueUMFGOhbLgu-55" type="circle" label="Главный лентяй курса" rotation="0">
+              <geometry x="3300" y="530" radius="50" border="true"/>
+              <background color="#ffffff"/>
+              <style alpha="1" border="true"/>
+            </node>
+
+            <edge dialect="base" id="BjKPCylyBFRQYZN12" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-2" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1920" endX="3500" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle edgeColor="#000000" lineWidth="1" alpha="1"/>
+                <lineConnectionStart>
+                  <connection id_con="4WUou0gEufhYeURV" id_shape="3dBl5uCY9Aa2lYVJ"/>
+                </lineConnectionStart>
+                <lineConnectionEnd>
+                  <connection id_con="XVSJwgOaCAAzCPfO" id_shape="3yTPzJ1yE93IXKGn"/>
+                </lineConnectionEnd>
+            </edge>
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-2" type="line" label="" source="kkqRZZZaIueUMFGOhbLgu-2" target="kqRZZZaIueUMFGOhbLgu-3" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1750" endX="3500" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle edgeColor="#000000" lineWidth="1" alpha="1"/>
+                <lineConnectionStart>
+                  <connection id_con="4WUou0gEufhYeURV1" id_shape="3dBl5uCY9Aa2lYVJ1"/>
+                </lineConnectionStart>
+                <lineConnectionEnd>
+                  <connection id_con="XVSJwgOaCAAzCPfO1" id_shape="3yTPzJ1yE93IXKGn1"/>
+                </lineConnectionEnd>
+            </edge>
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY2-3" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-3" target="kqRZZZaIueUMFGOhbLgu-4" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1580" endX="3500" endY="1510"/>
+                <background color="#000000"/>
+                <edgeStyle edgeColor="#000000" lineWidth="1" alpha="1"/>
+                <lineConnectionStart>
+                  <connection id_con="4WUou0gEufhYeURV11" id_shape="3dBl5uCY9Aa2lYVJ11"/>
+                </lineConnectionStart>
+                <lineConnectionEnd>
+                  <connection id_con="XVSJwgOaCAAzCPfO11" id_shape="3yTPzJ1yE93IXKGn11"/>
+                </lineConnectionEnd>
+            </edge>
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY3-4" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-3" target="kqRZZZaIueUMFGOhbLgu-4" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1580" endX="3500" endY="1510"/>
+                <background color="#000000"/>
+                <edgeStyle edgeColor="#000000" lineWidth="1" alpha="1"/>
+                <lineConnectionStart>
+                  <connection id_con="4WUou0gEufhYeURV11" id_shape="3dBl5uCY9Aa2lYVJ11"/>
+                </lineConnectionStart>
+                <lineConnectionEnd>
+                  <connection id_con="XVSJwgOaCAAzCPfO11" id_shape="3yTPzJ1yE93IXKGn11"/>
+                </lineConnectionEnd>
+            </edge>
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY4-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-4" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1410" endX="3500" endY="750"/>
+                <background color="#000000"/>
+                <edgeStyle edgeColor="#000000" lineWidth="1" alpha="1"/>
+                <lineConnectionStart>
+                  <connection id_con="4WUou0gEufhYeURV11" id_shape="3dBl5uCY9Aa2lYVJ11"/>
+                </lineConnectionStart>
+                <lineConnectionEnd>
+                  <connection id_con="XVSJwgOaCAAzCPfO11" id_shape="3yTPzJ1yE93IXKGn11"/>
+                </lineConnectionEnd>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY52-53" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-52" target="kqRZZZaIueUMFGOhbLgu-53" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="650" endX="3500" endY="580"/>
+                <background color="#000000"/>
+                <edgeStyle edgeColor="#000000" lineWidth="1" alpha="1"/>
+                <lineConnectionStart>
+                  <connection id_con="4WUou0gEufhYeURV11" id_shape="3dBl5uCY9Aa2lYVJ11"/>
+                </lineConnectionStart>
+                <lineConnectionEnd>
+                  <connection id_con="XVSJwgOaCAAzCPfO11" id_shape="3yTPzJ1yE93IXKGn11"/>
+                </lineConnectionEnd>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY52-54" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-52" target="kqRZZZaIueUMFGOhbLgu-54" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="650" endX="3300" endY="580"/>
+                <background color="#000000"/>
+                <edgeStyle edgeColor="#000000" lineWidth="1" alpha="1"/>
+                <lineConnectionStart>
+                  <connection id_con="4WUou0gEufhYeURV11" id_shape="3dBl5uCY9Aa2lYVJ11"/>
+                </lineConnectionStart>
+                <lineConnectionEnd>
+                  <connection id_con="XVSJwgOaCAAzCPfO11" id_shape="3yTPzJ1yE93IXKGn11"/>
+                </lineConnectionEnd>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY52-55" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-52" target="kqRZZZaIueUMFGOhbLgu-55" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="650" endX="3700" endY="580"/>
+                <background color="#000000"/>
+                <edgeStyle edgeColor="#000000" lineWidth="1" alpha="1"/>
+                <lineConnectionStart>
+                  <connection id_con="4WUou0gEufhYeURV11" id_shape="3dBl5uCY9Aa2lYVJ11"/>
+                </lineConnectionStart>
+                <lineConnectionEnd>
+                  <connection id_con="XVSJwgOaCAAzCPfO11" id_shape="3yTPzJ1yE93IXKGn11"/>
+                </lineConnectionEnd>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-8" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-8" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1920" endX="2500" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="2500" y="1920"/>
+                </internalPoints>
+            </edge>
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY8-9" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-8" target="kqRZZZaIueUMFGOhbLgu-9" endArrow=">" startArrow="none">
+                <lineGeometry startX="2500" startY="1750" endX="2500" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY9-10" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-9" target="kqRZZZaIueUMFGOhbLgu-10" endArrow=">" startArrow="none">
+                <lineGeometry startX="2500" startY="1580" endX="2500" endY="1510"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY10-11" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-10" target="kqRZZZaIueUMFGOhbLgu-11" endArrow=">" startArrow="none">
+                <lineGeometry startX="2500" startY="1410" endX="2500" endY="1340"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY11-47" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-11" target="kqRZZZaIueUMFGOhbLgu-47" endArrow=">" startArrow="none">
+                <lineGeometry startX="2500" startY="1240" endX="2500" endY="1170"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge>
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-12" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-12" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1920" endX="2300" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="2300" y="1920"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY12-13" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-12" target="kqRZZZaIueUMFGOhbLgu-13" endArrow=">" startArrow="none">
+                <lineGeometry startX="2300" startY="1750" endX="2300" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY13-14" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-13" target="kqRZZZaIueUMFGOhbLgu-14" endArrow=">" startArrow="none">
+                <lineGeometry startX="2300" startY="1580" endX="2300" endY="1510"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY14-15" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-14" target="kqRZZZaIueUMFGOhbLgu-15" endArrow=">" startArrow="none">
+                <lineGeometry startX="2300" startY="1410" endX="2300" endY="1340"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY15-46" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-15" target="kqRZZZaIueUMFGOhbLgu-46" endArrow=">" startArrow="none">
+                <lineGeometry startX="2300" startY="1240" endX="2300" endY="1170"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-16" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-16" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1920" endX="2100" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="2100" y="1920"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY16-17" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-16" target="kqRZZZaIueUMFGOhbLgu-17" endArrow=">" startArrow="none">
+                <lineGeometry startX="2100" startY="1750" endX="2100" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY17-18" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-17" target="kqRZZZaIueUMFGOhbLgu-18" endArrow=">" startArrow="none">
+                <lineGeometry startX="2100" startY="1580" endX="2100" endY="1510"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY18-19" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-18" target="kqRZZZaIueUMFGOhbLgu-19" endArrow=">" startArrow="none">
+                <lineGeometry startX="2100" startY="1410" endX="2100" endY="1340"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY19-45" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-19" target="kqRZZZaIueUMFGOhbLgu-45" endArrow=">" startArrow="none">
+                <lineGeometry startX="2100" startY="1240" endX="2100" endY="1170"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-20" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-20" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1920" endX="1900" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="1900" y="1920"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY20-21" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-20" target="kqRZZZaIueUMFGOhbLgu-21" endArrow=">" startArrow="none">
+                <lineGeometry startX="1900" startY="1750" endX="1900" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY21-22" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-21" target="kqRZZZaIueUMFGOhbLgu-22" endArrow=">" startArrow="none">
+                <lineGeometry startX="1900" startY="1580" endX="1900" endY="1510"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY22-23" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-22" target="kqRZZZaIueUMFGOhbLgu-23" endArrow=">" startArrow="none">
+                <lineGeometry startX="1900" startY="1410" endX="1900" endY="1340"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY23-44" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-23" target="kqRZZZaIueUMFGOhbLgu-44" endArrow=">" startArrow="none">
+                <lineGeometry startX="1900" startY="1240" endX="1900" endY="1170"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-24" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-24" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1920" endX="1700" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="1700" y="1920"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY24-25" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-24" target="kqRZZZaIueUMFGOhbLgu-25" endArrow=">" startArrow="none">
+                <lineGeometry startX="1700" startY="1750" endX="1700" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY25-26" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-25" target="kqRZZZaIueUMFGOhbLgu-26" endArrow=">" startArrow="none">
+                <lineGeometry startX="1700" startY="1580" endX="1700" endY="1510"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY26-27" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-26" target="kqRZZZaIueUMFGOhbLgu-27" endArrow=">" startArrow="none">
+                <lineGeometry startX="1700" startY="1410" endX="1700" endY="1340"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY27-43" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-27" target="kqRZZZaIueUMFGOhbLgu-43" endArrow=">" startArrow="none">
+                <lineGeometry startX="1700" startY="1240" endX="1700" endY="1170"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-28" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-28" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1920" endX="1500" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="1500" y="1920"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY28-29" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-28" target="kqRZZZaIueUMFGOhbLgu-29" endArrow=">" startArrow="none">
+                <lineGeometry startX="1500" startY="1750" endX="1500" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY29-30" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-29" target="kqRZZZaIueUMFGOhbLgu-30" endArrow=">" startArrow="none">
+                <lineGeometry startX="1500" startY="1580" endX="1500" endY="1510"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY30-31" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-30" target="kqRZZZaIueUMFGOhbLgu-31" endArrow=">" startArrow="none">
+                <lineGeometry startX="1500" startY="1410" endX="1500" endY="1340"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY31-42" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-31" target="kqRZZZaIueUMFGOhbLgu-42" endArrow=">" startArrow="none">
+                <lineGeometry startX="1500" startY="1240" endX="1500" endY="1170"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-32" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-32" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1920" endX="1300" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="1300" y="1920"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY32-33" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-32" target="kqRZZZaIueUMFGOhbLgu-33" endArrow=">" startArrow="none">
+                <lineGeometry startX="1300" startY="1750" endX="1300" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY33-34" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-33" target="kqRZZZaIueUMFGOhbLgu-34" endArrow=">" startArrow="none">
+                <lineGeometry startX="1300" startY="1580" endX="1300" endY="1510"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY34-35" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-34" target="kqRZZZaIueUMFGOhbLgu-35" endArrow=">" startArrow="none">
+                <lineGeometry startX="1300" startY="1410" endX="1300" endY="1340"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY35-41" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-35" target="kqRZZZaIueUMFGOhbLgu-41" endArrow=">" startArrow="none">
+                <lineGeometry startX="1300" startY="1240" endX="1300" endY="1170"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-36" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-36" endArrow=">" startArrow="none">
+                <lineGeometry startX="3500" startY="1920" endX="1100" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="1100" y="1920"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY36-37" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-36" target="kqRZZZaIueUMFGOhbLgu-37" endArrow=">" startArrow="none">
+                <lineGeometry startX="1100" startY="1750" endX="1100" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY37-38" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-37" target="kqRZZZaIueUMFGOhbLgu-38" endArrow=">" startArrow="none">
+                <lineGeometry startX="1100" startY="1580" endX="1100" endY="1510"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY38-39" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-38" target="kqRZZZaIueUMFGOhbLgu-39" endArrow=">" startArrow="none">
+                <lineGeometry startX="1100" startY="1410" endX="1100" endY="1340"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY39-40" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-39" target="kqRZZZaIueUMFGOhbLgu-40" endArrow=">" startArrow="none">
+                <lineGeometry startX="1100" startY="1240" endX="1100" endY="1170"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY40-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-40" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="1100" startY="1070" endX="3450" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="1100" y="700"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY41-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-41" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="1300" startY="1070" endX="3450" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="1300" y="700"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY42-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-42" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="1500" startY="1070" endX="3450" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="1500" y="700"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY43-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-43" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="1700" startY="1070" endX="3450" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="1700" y="700"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY44-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-44" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="1900" startY="1070" endX="3450" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="1900" y="700"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY45-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-45" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="2100" startY="1070" endX="3450" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="2100" y="700"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY45-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-45" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="2100" startY="1070" endX="3450" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="2100" y="700"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY46-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-46" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="2300" startY="1070" endX="3450" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="2300" y="700"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY47-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-47" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="2500" startY="1070" endX="3450" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="2500" y="700"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-5" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-5" endArrow=">" startArrow="none">
+                <lineGeometry startX="3550" startY="1970" endX="3650" endY="1970"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY5-6" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-5" target="kqRZZZaIueUMFGOhbLgu-6" endArrow=">" startArrow="none">
+                <lineGeometry startX="3700" startY="1920" endX="3700" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY6-7" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-6" target="kqRZZZaIueUMFGOhbLgu-7" endArrow=">" startArrow="none">
+                <lineGeometry startX="3700" startY="1750" endX="3700" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY7-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-7" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="3700" startY="1580" endX="3550" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="3700" y="700"/>
+                </internalPoints>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY1-48" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-1" target="kqRZZZaIueUMFGOhbLgu-48" endArrow=">" startArrow="none">
+                <lineGeometry startX="3450" startY="1970" endX="950" endY="1970"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY48-49" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-48" target="kqRZZZaIueUMFGOhbLgu-49" endArrow=">" startArrow="none">
+                <lineGeometry startX="900" startY="1920" endX="900" endY="1850"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY49-50" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-49" target="kqRZZZaIueUMFGOhbLgu-50" endArrow=">" startArrow="none">
+                <lineGeometry startX="900" startY="1750" endX="900" endY="1680"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+            </edge> 
+            
+
+            <edge dialect="base" id="BjKPCylyBFRQYZNY50-52" type="line" label="" source="kqRZZZaIueUMFGOhbLgu-50" target="kqRZZZaIueUMFGOhbLgu-52" endArrow=">" startArrow="none">
+                <lineGeometry startX="900" startY="1580" endX="3450" endY="700"/>
+                <background color="#000000"/>
+                <edgeStyle lineWidth="" isRounded= "true" isEdgeDash="false" maxRadiusOfCorners="10"/>
+                <internalPoints>
+                    <internalPoint x="900" y="700"/>
+                </internalPoints>
+            </edge> 
+
+        </graph>    
+        `;

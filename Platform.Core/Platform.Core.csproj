@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Platform.DataAccess.Postgress/Platform.DataAccess.Postgress.csproj" />
+    <ProjectReference Include="../Platform.API/Platform.API.csproj" />
+  </ItemGroup>
+
+</Project>

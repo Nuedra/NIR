@@ -1,0 +1,43 @@
+/Users/darina_samoylenko/NIR/Platform.Core/bin/Debug/net8.0/Platform.Core.deps.json
+/Users/darina_samoylenko/NIR/Platform.Core/bin/Debug/net8.0/Platform.Core.dll
+/Users/darina_samoylenko/NIR/Platform.Core/bin/Debug/net8.0/Platform.Core.pdb
+/Users/darina_samoylenko/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/darina_samoylenko/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.AssemblyInfoInputs.cache
+/Users/darina_samoylenko/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.AssemblyInfo.cs
+/Users/darina_samoylenko/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.csproj.CoreCompileInputs.cache
+/Users/darina_samoylenko/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.dll
+/Users/darina_samoylenko/NIR/Platform.Core/obj/Debug/net8.0/refint/Platform.Core.dll
+/Users/darina_samoylenko/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.pdb
+/Users/darina_samoylenko/NIR/Platform.Core/obj/Debug/net8.0/ref/Platform.Core.dll
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.dll
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/obj/Debug/net8.0/refint/Platform.Core.dll
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.pdb
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/bin/Debug/net8.0/Platform.Core.deps.json
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/bin/Debug/net8.0/Platform.Core.dll
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/bin/Debug/net8.0/Platform.Core.pdb
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/bin/Debug/net8.0/platform.DataAccess.Postgress.dll
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/bin/Debug/net8.0/platform.DataAccess.Postgress.pdb
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.csproj.AssemblyReference.cache
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.AssemblyInfoInputs.cache
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.AssemblyInfo.cs
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.csproj.CoreCompileInputs.cache
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/obj/Debug/net8.0/Platform.B841435F.Up2Date
+C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Core/obj/Debug/net8.0/ref/Platform.Core.dll
+/Users/vladislav/Downloads/NIR/Platform.Core/bin/Debug/net8.0/Platform.Core.deps.json
+/Users/vladislav/Downloads/NIR/Platform.Core/bin/Debug/net8.0/Platform.Core.dll
+/Users/vladislav/Downloads/NIR/Platform.Core/bin/Debug/net8.0/Platform.Core.pdb
+/Users/vladislav/Downloads/NIR/Platform.Core/bin/Debug/net8.0/Platform.API.dll
+/Users/vladislav/Downloads/NIR/Platform.Core/bin/Debug/net8.0/platform.DataAccess.Postgress.dll
+/Users/vladislav/Downloads/NIR/Platform.Core/bin/Debug/net8.0/platform.DataAccess.Postgress.pdb
+/Users/vladislav/Downloads/NIR/Platform.Core/bin/Debug/net8.0/Platform.API.pdb
+/Users/vladislav/Downloads/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.csproj.AssemblyReference.cache
+/Users/vladislav/Downloads/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladislav/Downloads/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.AssemblyInfoInputs.cache
+/Users/vladislav/Downloads/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.AssemblyInfo.cs
+/Users/vladislav/Downloads/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.csproj.CoreCompileInputs.cache
+/Users/vladislav/Downloads/NIR/Platform.Core/obj/Debug/net8.0/Platform.B841435F.Up2Date
+/Users/vladislav/Downloads/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.dll
+/Users/vladislav/Downloads/NIR/Platform.Core/obj/Debug/net8.0/refint/Platform.Core.dll
+/Users/vladislav/Downloads/NIR/Platform.Core/obj/Debug/net8.0/Platform.Core.pdb
+/Users/vladislav/Downloads/NIR/Platform.Core/obj/Debug/net8.0/ref/Platform.Core.dll
