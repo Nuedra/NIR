@@ -31,3 +31,68 @@ dotnet run --project "Platform.Application/Platform.Application.csproj"
 После старта приложение доступно по адресу:
 
 - `http://localhost:5284`, если порт 5284 свободен
+
+## Локальная PostgreSQL для миграций
+
+Для воспроизводимого локального окружения используется `docker-compose`.
+
+1. Создайте локальный env-файл:
+
+```bash
+cp ".env.example" ".env"
+```
+
+2. Поднимите PostgreSQL:
+
+```bash
+docker compose up -d
+```
+
+3. Проверьте, что контейнер запущен:
+
+```bash
+docker compose ps
+```
+
+4. Подготовьте переменную подключения для `dotnet ef`:
+
+```bash
+export PLATFORM_DB_CONNECTION="Host=localhost;Port=5432;Database=platform;Username=postgres;Password=pass"
+```
+
+5. Примените миграции:
+
+```bash
+dotnet ef database update --project "Platform.DataAccess.Postgress/Platform.DataAccess.Postgress.csproj"
+```
+
+## Проверка тестовых запросов к БД
+
+После применения миграций можно прогнать демонстрационные SQL-скрипты.
+
+1. Заполнить базу тестовыми данными:
+
+```bash
+docker exec -i nir-platform-postgres psql -U postgres -d platform < "scripts/sql/01_seed_demo.sql"
+```
+
+2. Выполнить запросы проверки:
+
+```bash
+docker exec -i nir-platform-postgres psql -U postgres -d platform < "scripts/sql/02_queries_demo.sql"
+```
+
+Ожидаемый результат:
+
+- выводится 2 записи ачивок студента;
+- выводится 2 ачивки курса вместе с критериями;
+- `UPDATE 2` для обновления `IsNotificationSeen`;
+- `NOTICE` о блокировке дубля по уникальному индексу `(StudentID, AchievementID)`.
+
+Полезные команды:
+
+```bash
+docker compose ps
+docker compose logs postgres
+docker compose down
+```
