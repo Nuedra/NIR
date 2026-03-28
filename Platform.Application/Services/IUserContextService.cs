@@ -1,10 +1,11 @@
 using Platform.Application.Models;
+using Platform.Core.Abstractions;
 
 namespace Platform.Application.Services;
 
 public interface IUserContextService
 {
-    UserContext Current { get; }
+    ICurrentUserContext Current { get; }
     event Action? OnChanged;
     void SetCurrentUserId(Guid? userId);
 }

@@ -1,11 +1,13 @@
 using Platform.Application.Models;
+using Platform.Core.Abstractions;
 using Platform.Core.Models;
 
 namespace Platform.Application.Services;
 
 public sealed class UserContextService : IUserContextService
 {
-    public UserContext Current { get; } = new();
+    private UserContext MutableCurrent { get; } = new();
+    public ICurrentUserContext Current => MutableCurrent;
 
     public event Action? OnChanged;
 
@@ -14,8 +16,8 @@ public sealed class UserContextService : IUserContextService
 
     public void SetCurrentUserId(Guid? userId)
     {
-        Current.UserId = userId;
-        Current.Role = ResolveRole(userId);
+        MutableCurrent.UserId = userId;
+        MutableCurrent.Role = ResolveRole(userId);
         OnChanged?.Invoke();
     }
 
