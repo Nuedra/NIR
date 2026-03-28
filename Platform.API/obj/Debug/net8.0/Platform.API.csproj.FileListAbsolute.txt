@@ -9,3 +9,4 @@
 /Users/vladislav/Downloads/NIR/Platform.API/obj/Debug/net8.0/refint/Platform.API.dll
 /Users/vladislav/Downloads/NIR/Platform.API/obj/Debug/net8.0/Platform.API.pdb
 /Users/vladislav/Downloads/NIR/Platform.API/obj/Debug/net8.0/ref/Platform.API.dll
+/Users/vladislav/Downloads/NIR/Platform.API/obj/Debug/net8.0/Platform.API.sourcelink.json

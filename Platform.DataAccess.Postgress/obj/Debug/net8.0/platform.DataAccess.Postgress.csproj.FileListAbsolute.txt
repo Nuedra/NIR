@@ -33,3 +33,4 @@ C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Da
 /Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.pdb
 /Users/vladislav/Downloads/NIR/platform.DataAccess.Postgress/obj/Debug/net8.0/platform.DataAccess.Postgress.genruntimeconfig.cache
 /Users/vladislav/Downloads/NIR/platform.DataAccess.Postgress/obj/Debug/net8.0/ref/platform.DataAccess.Postgress.dll
+/Users/vladislav/Downloads/NIR/Platform.DataAccess.Postgress/obj/Debug/net8.0/Platform.DataAccess.Postgress.sourcelink.json

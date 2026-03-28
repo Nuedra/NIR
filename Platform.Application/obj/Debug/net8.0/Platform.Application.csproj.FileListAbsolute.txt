@@ -60,3 +60,4 @@ C:/Users/Hydrogen/Documents/Develop/НИР ДАШИ СМЕЛОЙ/NIR/Platform.Ap
 /Users/vladislav/Downloads/NIR/Platform.Application/obj/Debug/net8.0/Platform.Application.pdb
 /Users/vladislav/Downloads/NIR/Platform.Application/obj/Debug/net8.0/Platform.Application.genruntimeconfig.cache
 /Users/vladislav/Downloads/NIR/Platform.Application/obj/Debug/net8.0/ref/Platform.Application.dll
+/Users/vladislav/Downloads/NIR/Platform.Application/obj/Debug/net8.0/Platform.Application.sourcelink.json
