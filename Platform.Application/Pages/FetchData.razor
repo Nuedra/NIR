@@ -4,16 +4,4 @@
 
 <h1>Данные</h1>
 
-@if (UserContextService.Current.Role == UserRole.Student)
-{
-    <p>Заглушка данных для студента: список курсов и доступные ачивки.</p>
-}
-else
-{
-    <p>Заглушка данных для преподавателя: управление курсами и критериями достижений.</p>
-}
-
-@code {
-    [Inject]
-    public IUserContextService UserContextService { get; set; } = default!;
-}
+<p>Страница-заглушка. Здесь позже будет вывод данных по курсам и достижениям.</p>

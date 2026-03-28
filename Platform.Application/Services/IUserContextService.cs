@@ -6,5 +6,5 @@ public interface IUserContextService
 {
     UserContext Current { get; }
     event Action? OnChanged;
-    void SetUser(Guid? userId, UserRole role);
+    void SetCurrentUserId(Guid? userId);
 }
