@@ -1,7 +1,0 @@
-/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net10.0/Platform.DataAccess.Postgress.csproj.AssemblyReference.cache
-/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net10.0/rpswa.dswa.cache.json
-/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net10.0/Platform.DataAccess.Postgress.GeneratedMSBuildEditorConfig.editorconfig
-/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net10.0/Platform.DataAccess.Postgress.AssemblyInfoInputs.cache
-/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net10.0/Platform.DataAccess.Postgress.AssemblyInfo.cs
-/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net10.0/Platform.DataAccess.Postgress.csproj.CoreCompileInputs.cache
-/Users/darina_samoylenko/NIR/Platform.DataAccess.Postgress/obj/Debug/net10.0/Platform.DataAccess.Postgress.MvcApplicationPartsAssemblyInfo.cache

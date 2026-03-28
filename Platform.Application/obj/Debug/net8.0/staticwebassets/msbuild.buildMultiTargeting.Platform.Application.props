@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/Platform.Application.props" />
-</Project>
