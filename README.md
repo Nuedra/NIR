@@ -65,3 +65,34 @@ export PLATFORM_DB_CONNECTION="Host=localhost;Port=5432;Database=platform;Userna
 ```bash
 dotnet ef database update --project "Platform.DataAccess.Postgress/Platform.DataAccess.Postgress.csproj"
 ```
+
+## Проверка тестовых запросов к БД
+
+После применения миграций можно прогнать демонстрационные SQL-скрипты.
+
+1. Заполнить базу тестовыми данными:
+
+```bash
+docker exec -i nir-platform-postgres psql -U postgres -d platform < "scripts/sql/01_seed_demo.sql"
+```
+
+2. Выполнить запросы проверки:
+
+```bash
+docker exec -i nir-platform-postgres psql -U postgres -d platform < "scripts/sql/02_queries_demo.sql"
+```
+
+Ожидаемый результат:
+
+- выводится 2 записи ачивок студента;
+- выводится 2 ачивки курса вместе с критериями;
+- `UPDATE 2` для обновления `IsNotificationSeen`;
+- `NOTICE` о блокировке дубля по уникальному индексу `(StudentID, AchievementID)`.
+
+Полезные команды:
+
+```bash
+docker compose ps
+docker compose logs postgres
+docker compose down
+```
