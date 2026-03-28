@@ -30,4 +30,4 @@ dotnet run --project "Platform.Application/Platform.Application.csproj"
 
 После старта приложение доступно по адресу:
 
-- `http://localhost:5284`
+- `http://localhost:5284`, если порт 5284 свободен
