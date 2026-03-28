@@ -1,4 +1,5 @@
-﻿@inherits LayoutComponentBase
+@inherits LayoutComponentBase
+@implements IDisposable
 
 <PageTitle>Platform.Application</PageTitle>
 
@@ -9,7 +10,8 @@
 
     <main>
         <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+            <span class="me-3">Роль: <b>@UserContextService.Current.Role</b></span>
+            <span>ID: <b>@FormatUserId(UserContextService.Current.UserId)</b></span>
         </div>
 
         <article class="content px-4">
@@ -17,3 +19,26 @@
         </article>
     </main>
 </div>
+
+@code {
+    [Inject]
+    public IUserContextService UserContextService { get; set; } = default!;
+
+    protected override void OnInitialized()
+    {
+        UserContextService.OnChanged += HandleUserContextChanged;
+    }
+
+    private void HandleUserContextChanged()
+    {
+        InvokeAsync(StateHasChanged);
+    }
+
+    private static string FormatUserId(Guid? userId) =>
+        userId?.ToString() ?? "не задан";
+
+    public void Dispose()
+    {
+        UserContextService.OnChanged -= HandleUserContextChanged;
+    }
+}

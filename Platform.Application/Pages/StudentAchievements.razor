@@ -1,0 +1,24 @@
+@page "/student-achievements"
+
+<PageTitle>Достижения студента</PageTitle>
+
+<h1>Достижения студента</h1>
+
+@if (UserContextService.Current.Role != UserRole.Student)
+{
+    <div class="alert alert-warning">
+        Эта страница доступна только для роли <b>Студент</b>.
+    </div>
+}
+else
+{
+    <p>Здесь будет список ачивок по ID студента: @FormatUserId(UserContextService.Current.UserId).</p>
+}
+
+@code {
+    [Inject]
+    public IUserContextService UserContextService { get; set; } = default!;
+
+    private static string FormatUserId(Guid? userId) =>
+        userId?.ToString() ?? "не задан";
+}

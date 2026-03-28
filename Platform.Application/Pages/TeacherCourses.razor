@@ -1,0 +1,21 @@
+@page "/teacher-courses"
+
+<PageTitle>Панель преподавателя</PageTitle>
+
+<h1>Панель преподавателя</h1>
+
+@if (UserContextService.Current.Role != UserRole.Teacher)
+{
+    <div class="alert alert-warning">
+        Эта страница доступна только для роли <b>Преподаватель</b>.
+    </div>
+}
+else
+{
+    <p>Здесь будут действия преподавателя: управление курсами и достижениями.</p>
+}
+
+@code {
+    [Inject]
+    public IUserContextService UserContextService { get; set; } = default!;
+}

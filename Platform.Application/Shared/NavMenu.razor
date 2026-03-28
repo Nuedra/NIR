@@ -1,4 +1,6 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+@implements IDisposable
+
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">Platform.Application</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -20,20 +22,54 @@
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            <NavLink class="nav-link" href="profile">
+                <span class="oi oi-person" aria-hidden="true"></span> Профиль
             </NavLink>
         </div>
+        @if (UserContextService.Current.Role == UserRole.Student)
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="student-achievements">
+                    <span class="oi oi-star" aria-hidden="true"></span> Мои достижения
+                </NavLink>
+            </div>
+        }
+        @if (UserContextService.Current.Role == UserRole.Teacher)
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="teacher-courses">
+                    <span class="oi oi-briefcase" aria-hidden="true"></span> Курсы (преподаватель)
+                </NavLink>
+            </div>
+        }
     </nav>
 </div>
 
 @code {
+    [Inject]
+    public IUserContextService UserContextService { get; set; } = default!;
+
     private bool collapseNavMenu = true;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
+    protected override void OnInitialized()
+    {
+        UserContextService.OnChanged += HandleUserContextChanged;
+    }
+
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
+    }
+
+    private void HandleUserContextChanged()
+    {
+        InvokeAsync(StateHasChanged);
+    }
+
+    public void Dispose()
+    {
+        UserContextService.OnChanged -= HandleUserContextChanged;
     }
 }
