@@ -1,7 +1,0 @@
-namespace Platform.Application.Models;
-
-public enum UserRole
-{
-    Student = 0,
-    Teacher = 1
-}

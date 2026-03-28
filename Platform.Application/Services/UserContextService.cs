@@ -1,4 +1,5 @@
 using Platform.Application.Models;
+using Platform.Core.Models;
 
 namespace Platform.Application.Services;
 

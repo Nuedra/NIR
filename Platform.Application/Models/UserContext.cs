@@ -1,3 +1,5 @@
+using Platform.Core.Models;
+
 namespace Platform.Application.Models;
 
 public sealed class UserContext
