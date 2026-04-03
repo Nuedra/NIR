@@ -32,12 +32,12 @@ public sealed class AchievementProcessingCycle
             .Select(entity => new Achievement(entity))
             .ToList();
 
-        var listDb = new ListDbConnection();
+        var listDb = new ListDbConnection(_connectionString);
         listDb.connect();
 
-        var studentData = JsonDataParser.ParseToDictionary(
-            listDb.getUserData(studentNumber)
-        );
+        var studentJson = await listDb.GetUserDataJsonAsync(studentNumber, cancellationToken)
+            .ConfigureAwait(false);
+        var studentData = JsonDataParser.ParseToDictionary(studentJson);
 
         var matched = new List<Achievement>();
         var checkedCount = 0;

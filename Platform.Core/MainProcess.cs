@@ -27,12 +27,11 @@ namespace Platform.Core
                 .Select(e => new Achievement(e))
                 .ToList();
 
-            // 4) Получаем данные студента из JSON
-            var listDb = new ListDbConnection();
+            // 4) Данные студента из PostgreSQL (через ListDbConnection)
+            var listDb = new ListDbConnection(connectionString);
             listDb.connect();
-            var student = JsonDataParser.ParseToDictionary(
-                listDb.getUserData(studentNumber)
-            );
+            var studentJson = await listDb.GetUserDataJsonAsync(studentNumber).ConfigureAwait(false);
+            var student = JsonDataParser.ParseToDictionary(studentJson);
 
             // 5) Отбираем подходящие ачивки уже по обёрткам
             var matchedAchievements = achievements
