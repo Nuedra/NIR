@@ -47,10 +47,11 @@ VALUES (
     NULL
 );
 
-INSERT INTO "students" ("Id", "StudentNumber", "Name", "Surname", "Group", "AcademicDataJson")
+INSERT INTO "students" ("Id", "StudentNumber", "ExternalStudentNumberRaw", "Name", "Surname", "Group", "AcademicDataJson")
 VALUES (
     '11111111-1111-1111-1111-111111111111',
-    1,
+    NULL,
+    NULL,
     'Ivan',
     'Petrov',
     'IS-101',

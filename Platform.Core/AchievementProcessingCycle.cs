@@ -19,7 +19,7 @@ public sealed class AchievementProcessingCycle
         _connectionString = connectionString;
     }
 
-    public async Task<AchievementProcessingResult> RunAsync(int studentNumber, CancellationToken cancellationToken = default)
+    public async Task<AchievementProcessingResult> RunAsync(Guid studentId, CancellationToken cancellationToken = default)
     {
         await using var db = PlatformDatabase.Connect(_connectionString);
 
@@ -35,7 +35,7 @@ public sealed class AchievementProcessingCycle
         var listDb = new ListDbConnection(_connectionString);
         listDb.connect();
 
-        var studentJson = await listDb.GetUserDataJsonAsync(studentNumber, cancellationToken)
+        var studentJson = await listDb.GetUserDataJsonAsync(studentId, cancellationToken)
             .ConfigureAwait(false);
         var studentData = JsonDataParser.ParseToDictionary(studentJson);
 

@@ -163,6 +163,9 @@ namespace Platform.DataAccess.Postgress.Migrations
                     b.Property<string>("AcademicDataJson")
                         .HasColumnType("text");
 
+                    b.Property<string>("ExternalStudentNumberRaw")
+                        .HasColumnType("text");
+
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
@@ -175,7 +178,7 @@ namespace Platform.DataAccess.Postgress.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<int>("StudentNumber")
+                    b.Property<int?>("StudentNumber")
                         .HasColumnType("integer");
 
                     b.Property<string>("Surname")
@@ -183,9 +186,6 @@ namespace Platform.DataAccess.Postgress.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("StudentNumber")
-                        .IsUnique();
 
                     b.ToTable("students", (string)null);
                 });

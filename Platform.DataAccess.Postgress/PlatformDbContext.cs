@@ -41,9 +41,10 @@ namespace Platform.DataAccess.Postgress
                 e.Property(x => x.Name).IsRequired();
                 e.Property(x => x.Surname).IsRequired();
                 e.Property(x => x.Group).IsRequired();
-                e.Property(x => x.StudentNumber).IsRequired();
+                e.Property(x => x.StudentNumber).IsRequired(false);
                 e.Property(x => x.AcademicDataJson).IsRequired(false);
-                e.HasIndex(x => x.StudentNumber).IsUnique();
+                // Временное поле для внешнего номера: пока только хранение "как пришло".
+                e.Property(x => x.ExternalStudentNumberRaw).IsRequired(false);
 
                 e.HasMany(x => x.StudentAchievements)
                  .WithOne(x => x.Student)

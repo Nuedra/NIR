@@ -9,7 +9,7 @@ namespace Platform.Core
 {
     public static class Activities
     {
-        public static async Task MainProcess(int studentNumber)
+        public static async Task MainProcess(Guid studentId)
         {
             string connectionString =
                 "Host=localhost;Port=5432;Database=platform;Username=postgres;Password=pass";
@@ -30,7 +30,7 @@ namespace Platform.Core
             // 4) Данные студента из PostgreSQL (через ListDbConnection)
             var listDb = new ListDbConnection(connectionString);
             listDb.connect();
-            var studentJson = await listDb.GetUserDataJsonAsync(studentNumber).ConfigureAwait(false);
+            var studentJson = await listDb.GetUserDataJsonAsync(studentId).ConfigureAwait(false);
             var student = JsonDataParser.ParseToDictionary(studentJson);
 
             // 5) Отбираем подходящие ачивки уже по обёрткам

@@ -27,17 +27,17 @@ public sealed class ListDbConnection
     {
     }
 
-    public async Task<string> GetUserDataJsonAsync(int studentNumber, CancellationToken cancellationToken = default)
+    public async Task<string> GetUserDataJsonAsync(Guid studentId, CancellationToken cancellationToken = default)
     {
         await using var db = PlatformDatabase.Connect(_connectionString);
 
         var student = await db.Students
             .AsNoTracking()
-            .FirstOrDefaultAsync(s => s.StudentNumber == studentNumber, cancellationToken)
+            .FirstOrDefaultAsync(s => s.Id == studentId, cancellationToken)
             .ConfigureAwait(false);
 
         if (student is null)
-            throw new InvalidOperationException($"Student with number {studentNumber} was not found.");
+            throw new InvalidOperationException($"Student with id {studentId} was not found.");
 
         if (!string.IsNullOrWhiteSpace(student.AcademicDataJson))
             return student.AcademicDataJson;
@@ -45,7 +45,7 @@ public sealed class ListDbConnection
         return JsonSerializer.Serialize(
             new
             {
-                id = student.StudentNumber,
+                id = student.Id,
                 name = student.Name,
                 surname = student.Surname,
                 group = student.Group,
@@ -53,5 +53,5 @@ public sealed class ListDbConnection
             new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
     }
 
-    public string getUserData(int id) => GetUserDataJsonAsync(id).GetAwaiter().GetResult();
+    public string getUserData(Guid id) => GetUserDataJsonAsync(id).GetAwaiter().GetResult();
 }
