@@ -1,18 +1,57 @@
-﻿namespace Platform.API
+using System.Text.Json;
+using Microsoft.EntityFrameworkCore;
+using Platform.DataAccess.Postgress;
+
+namespace Platform.API;
+
+public sealed class ListDbConnection
 {
-    public class ListDbConnection()
+    private readonly string _connectionString;
+
+    public ListDbConnection()
+        : this(
+            Environment.GetEnvironmentVariable("PLATFORM_DB_CONNECTION")
+            ?? "Host=localhost;Port=5432;Database=platform;Username=postgres;Password=pass")
     {
-        public void connect()
-        {
-            new NotImplementedException();
-        }
-
-        public string getUserData(int id)
-        {
-            return """
-                {"id":9,"name":"Roman","surname":"Kasimov","group":"B22-515","courses":{"informatics":{"id":3,"tracks":{"aisd":{"attended_classes":8,"all_classes":16,"labs":[{"name":"Nested Lists","number":1,"issue_date":"10.08.2020","deadline_date":"21.08.2020","complete_date":"27.08.2020","grade":4},{"name":"Hash Tables","number":2,"issue_date":"10.08.2020","deadline_date":"21.09.2020","complete_date":"15.08.2020","grade":3}],"tests":[{"date":"25.09.2020","attempts":{"25.09.2020":0,"1.10.2020":0,"8.10.2020":4}},{"date":"19.12.2020","attempts":{"19.12.2020":5}}]},"metatheory":{"attended_classes":0,"all_classes":16,"labs":[],"tests":[{"date":"12.12.2020","attempts":{"12.12.2020":0,"13.12.2020":0}}]},"polymorphic":{"attended_classes":10,"all_classes":10,"labs":[{"name":"Final Project","number":1,"issue_date":"10.08.2020","deadline_date":"21.08.2020","complete_date":"13.08.2020","grade":5}],"tests":[{"date":"25.11.2020","attempts":{"25.11.2020":5}}]}}}}}}
-            """;
-        }
-
     }
+
+    public ListDbConnection(string connectionString)
+    {
+        if (string.IsNullOrWhiteSpace(connectionString))
+            throw new ArgumentException("Connection string is required.", nameof(connectionString));
+
+        _connectionString = connectionString;
+    }
+
+    public void connect()
+    {
+    }
+
+    public async Task<string> GetUserDataJsonAsync(Guid studentId, CancellationToken cancellationToken = default)
+    {
+        await using var db = PlatformDatabase.Connect(_connectionString);
+
+        var student = await db.Students
+            .AsNoTracking()
+            .FirstOrDefaultAsync(s => s.Id == studentId, cancellationToken)
+            .ConfigureAwait(false);
+
+        if (student is null)
+            throw new InvalidOperationException($"Student with id {studentId} was not found.");
+
+        if (!string.IsNullOrWhiteSpace(student.AcademicDataJson))
+            return student.AcademicDataJson;
+
+        return JsonSerializer.Serialize(
+            new
+            {
+                id = student.Id,
+                name = student.Name,
+                surname = student.Surname,
+                group = student.Group,
+            },
+            new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
+    }
+
+    public string getUserData(Guid id) => GetUserDataJsonAsync(id).GetAwaiter().GetResult();
 }
